@@ -339,10 +339,10 @@ spec:
   - computeResources:
       limits:
         cpu: 100m
-        memory: 512Mi
+        memory: 256Mi
       requests:
         cpu: 100m
-        memory: 512Mi
+        memory: 256Mi
     env:
     - name: SKIP_UPLOAD
       value: $(params.skip-upload)
